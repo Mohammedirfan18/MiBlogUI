@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MiBlogs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/navbar.css" />
+    <link rel="stylesheet" href="/hero.css" />
+    <link rel="stylesheet" href="/hot_topics.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="/logo.jpeg" alt="logo" />
+        </div>
+        <div class="options">
+          <ul>
+            <li>Home</li>
+            <li>Topics</li>
+            <li>Featured Post</li>
+            <li>Recent Post</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <div class="subscribe">
+            <button class="subscribe-btn">Subscribe</button>
+          </div>
+          <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="intro">
+          <p>Hello Everyone!</p>
+          <h1>I'm <span class="author">Mohammed Irfan</span></h1>
+          <p>
+            I use animation as a third dimension by which to simplify
+            experiences and kuiding thro each and every interaction. I'm not
+            adding motion just to spruce things up, but doing it in ways that
+          </p>
+          <div class="email-input">
+            <input type="text" placeholder="Type your email address" /><button
+              class="subscribe-btn"
+            >
+              Subscribe <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="banner">
+          <img src="./Assets/hero-banner.png" alt="banner" />
+        </div>
+      </section>
+      <section class="hot-topics">
+        <div class="topics-descryption">
+          <h2>Hot topics</h2>
+          <p>
+            Don't miss out on the latest news about Travel tips, Hotels review,
+            Food guide...
+          </p>
+          <div>
+            <button class="direction">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="direction">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="container">
+          <div class="topics">
+            <img src="/Assets/Hot-topics/topic-1.png" alt="sports image" />
+            <div>
+              <h2>Sport</h2>
+              <p>38 Articles</p>
+            </div>
+          </div>
+          <div class="topics">
+            <img src="/Assets/Hot-topics/topic-2.png" alt="travel image" />
+            <div>
+              <h2>Travel</h2>
+              <p>63 Articles</p>
+            </div>
+          </div>
+          <div class="topics">
+            <img src="/Assets/Hot-topics/topic-3.png" alt="design image" />
+            <div>
+              <h2>Design</h2>
+              <p>50 Articles</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
