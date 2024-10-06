@@ -33,8 +33,12 @@
     background-color: rgb(34, 48, 68);
     border-radius: 15px;
     border: none;
+    transition: background-color ease-in-out 0.15s;
 } 
-
+.direction:hover{
+    cursor: pointer;
+    background-color:rgb(14, 165, 234);
+}
 
 .container{
     display: flex;
@@ -45,6 +49,13 @@
 .topics{
     flex: 1;
     position: relative;
+    transition: color ease-in-out 0.5s;
+}
+.topics:hover{
+    cursor: pointer;
+}
+.topics:hover h2{
+    color:rgb(14, 165, 234);
 }
  
 .topics div{

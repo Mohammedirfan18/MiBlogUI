@@ -1,0 +1,109 @@
+.editors-choice{
+    margin-top:50px ;
+    margin-left:178px;
+    margin-right: 178px;
+    max-width:1100px;
+    padding: 20px; 
+    background-color: transparent;
+    border-radius: 6px;
+    display: flex;
+    row-gap: 2%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.editors-head{
+    margin-bottom: 20px;
+    align-self: flex-start;
+    padding: 20px;
+    flex: 1;
+}
+.editors-head h2{
+    background-image: linear-gradient(90deg, rgb(14, 165, 234), rgb(11, 209, 209) 51%);
+    background-clip: text;
+    -webkit-background-clip: text; /* Ensures it works on WebKit browsers */
+    color: transparent; /* Makes the text transparent */
+    -webkit-text-fill-color: transparent; /* Makes the text transparent for WebKit browsers */
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.first-display,.second-display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+    gap: 2%;
+    flex:1;
+    margin-bottom: 20px;
+    
+} 
+.panel-one,.panel-two{
+    flex: 1;
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(34, 48, 68);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    transition: transform 0.3s ease;
+}
+.panel-one img,.panel-two img{
+    width: 100%;
+    border-radius: 6px;
+}
+.panel-one:hover,.panel-two:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.hashtags{
+    color:rgb(125, 145, 176);
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 0;
+}
+.panel-one,.panel-two h2{
+    color: rgb(186, 225, 242);
+    font-size: 20px;
+    font-weight: 700;
+}
+.panel-one:hover,.panel-two:hover h2{
+    color:rgb(14, 165, 234);
+}
+.profile-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(125, 145, 176);
+    padding: 20px 0 0 0;
+}
+.author-container{
+    flex: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
+}
+.author-profile img{
+    width: 50px;
+    border-radius: 25px;
+}
+.show-btn{
+    color:white;
+    background-image: linear-gradient(90deg, rgb(14, 165, 234), rgb(11, 209, 209) 51%, rgb(14, 165, 234));
+    padding: 18px 30px;
+    border: none;
+    border-radius: 35px;  
+    background-size: 200% 100%; /* Make the background twice as wide */
+    background-position: center; /* Center the gradient */
+    transition: background-position 0.3s ease-in-out; 
+}
+.show-btn:hover{
+    cursor: pointer;
+    background-position: left;
+}
+
+
