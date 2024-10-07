@@ -1,13 +1,13 @@
  .hot-topics{ 
     margin-left:178px;
     margin-right: 178px;
-    min-width: 350px;
+    /* min-width: 350px; */
     max-width:1100px;
     padding: 20px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2%;
+    gap: 2px;
     background-color: transparent;
     border: 1px solid rgb(34, 48, 68);
     border-radius: 6px;
@@ -44,7 +44,7 @@
 .container{
     display: flex;
     flex: 3;
-    gap: 2%;
+    gap: 2px;
 }
 
 .topics{

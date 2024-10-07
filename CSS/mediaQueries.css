@@ -87,6 +87,14 @@
     .topic3 {
         display: none;
     }
+    .hot-topics{
+        margin-left: 30px;
+       
+    }
+    .editors-choice,.popular-tags{
+        padding: 0;
+        padding-left:30px;
+    }
     .editors-head h2{
         font-size: 35px;
     }
