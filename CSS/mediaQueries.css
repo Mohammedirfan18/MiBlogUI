@@ -101,5 +101,12 @@
     .hero-section {
         width: 100%;
     }
+    .first-display,.second-display
+    {
+        padding: 0;
+    }
+    .panel-one,.panel-two{
+        padding: 10px;
+    }
     
 }
