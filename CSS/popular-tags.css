@@ -7,10 +7,8 @@
     background-color: transparent;
     border-radius: 6px;
     display: flex;
-    row-gap: 2%;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
 }
 .popular-tags-head{
     margin-bottom: 20px;
@@ -34,7 +32,7 @@
     margin-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
-    gap: 3%;
+    gap: 3px;
     justify-content: center;
     align-items: center;
 } 
@@ -42,7 +40,6 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 5%;
     padding: 15px 10px;
     background-color: transparent;
     border: 1px solid rgb(34, 48, 68); 

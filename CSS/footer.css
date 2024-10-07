@@ -2,7 +2,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    height: 100px;
     margin-bottom: 100px;
     margin-left:178px;
     margin-right: 178px;
@@ -38,14 +38,14 @@ a:hover{
     flex: 1;
     display: flex;
     justify-content: center;
-    gap: 4%;
+    gap: 5px;
     color:rgb(125, 145, 176);
     
 }
 .social-link{
     display: flex;
     align-items: center;
-    gap: 4%;
+    gap: 5px;
     transition: transform 0.3s ease;
 }
 .social-link:hover{

@@ -27,6 +27,7 @@
     -webkit-text-fill-color: transparent; /* Makes the text transparent for WebKit browsers */
     font-size: 40px;
     font-weight: 700;
+    text-wrap: nowrap;
     padding: 20px 0;
 }
 .first-display,.second-display{
