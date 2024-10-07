@@ -17,18 +17,19 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="/navbar.css" />
-    <link rel="stylesheet" href="/hero.css" />
-    <link rel="stylesheet" href="/hot_topics.css" />
-    <link rel="stylesheet" href="/editors-choice.css" />
-    <link rel="stylesheet" href="/popular-tags.css" />
-    <link rel="stylesheet" href="/footer.css" />
+    <link rel="stylesheet" href="./CSS/navbar.css" />
+    <link rel="stylesheet" href="./CSS/hero.css" />
+    <link rel="stylesheet" href="./CSS/hot_topics.css" />
+    <link rel="stylesheet" href="./CSS/editors-choice.css" />
+    <link rel="stylesheet" href="./CSS/popular-tags.css" />
+    <link rel="stylesheet" href="./CSS/footer.css" />
+    <link rel="stylesheet" href="./CSS/mediaQueries.css" />
   </head>
   <body>
     <header>
       <nav class="navbar">
         <div class="logo">
-          <img src="/logo.png" alt="logo" />
+          <img src="./Assets/logo.png" alt="logo" />
         </div>
         <div class="options">
           <ul>
@@ -48,8 +49,28 @@
           </div>
         </div>
       </nav>
+      <!--mobile menu -->
+      <nav id="mob_nav" class="mob_navbar hide">
+        <div class="m_nav">
+          <div class="mob_logo">
+            <img src="./Assets/logo.png" alt="logo" />
+          </div>
+          <div class="close_btn">
+            <i class="fa-solid fa-x"></i>
+          </div>
+        </div>
+        <div class="mob_options">
+          <ul>
+            <li>Home</li>
+            <li>Topics</li>
+            <li>Featured Post</li>
+            <li>Recent Post</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <main>
+      <main>
       <section class="hero-section">
         <div class="intro">
           <p>Hello Everyone!</p>
@@ -71,6 +92,7 @@
           <img src="./Assets/hero-banner.png" alt="banner" />
         </div>
       </section>
+      
       <section class="hot-topics">
         <div class="topics-descryption">
           <h2>Hot topics</h2>
@@ -79,34 +101,34 @@
             Food guide...
           </p>
           <div>
-            <button class="direction">
+            <button class="direction left">
               <i class="fa-solid fa-arrow-left"></i>
             </button>
-            <button class="direction">
+            <button class="direction right">
               <i class="fa-solid fa-arrow-right"></i>
             </button>
           </div>
         </div>
         <div class="container">
           <div class="topics">
-            <img src="/Assets/Hot-topics/topic-1.png" alt="sports image" />
+            <img class="imgpos1 mainimg" src="/Assets/Hot-topics/topic-1.png" alt="sports image" />
             <div>
-              <h2>Sport</h2>
-              <p>38 Articles</p>
+              <h2 class="topicsp1 maintopic">Sport</h2>
+              <p class="articlesp1 mainarticle">38 Articles</p>
             </div>
           </div>
-          <div class="topics">
-            <img src="/Assets/Hot-topics/topic-2.png" alt="travel image" />
+          <div class="topics topic2">
+            <img class="imgpos2" src="/Assets/Hot-topics/topic-2.png" alt="travel image" />
             <div>
-              <h2>Travel</h2>
-              <p>63 Articles</p>
+              <h2 class="topicsp2">Travel</h2>
+              <p class="articlesp2">63 Articles</p>
             </div>
           </div>
-          <div class="topics">
-            <img src="/Assets/Hot-topics/topic-3.png" alt="design image" />
+          <div  class="topics topic3">
+            <img class="imgpos3" src="/Assets/Hot-topics/topic-3.png" alt="design image" />
             <div>
-              <h2>Design</h2>
-              <p>50 Articles</p>
+              <h2 class="topicsp3">Design</h2>
+              <p class="articlesp3">50 Articles</p>
             </div>
           </div>
         </div>
@@ -289,17 +311,17 @@
               <div>Business</div>
             </div>
         </div>
-      </section>
+      </section> 
     </main>
-    <footer>
-      
+     <footer> 
       <div class="copywrite"><p><i class="fa-regular fa-copyright"></i> Developed by <a href="https://github.com/Mohammedirfan18/MiBlog"><span class="name">Mohammed Irfan</span></a></p></div>
       <div class="social-links">
-        <div class="social-link"><a href="https://x.com/Mohammederfan09?t=S2VMPMCTaKV5UaACz1lUNQ&s=09"><i class="fa-brands fa-twitter"></i>Twitter</a></div>
-        <div class="social-link"><a href="https://www.linkedin.com/in/irfancodes"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></div>
-        <div class="social-link"><a href="https://api.whatsapp.com/qr/CCPRRYAWCTTCA1?autoload=1&app_absent=0"><i class="fa-brands fa-square-whatsapp"></i>WhatsApp</a></div>
+        <div class="social-link"><a href="https://x.com/Mohammederfan09?t=S2VMPMCTaKV5UaACz1lUNQ&s=09"><i class="fa-brands fa-twitter"> </i>  Twitter</a></div>
+        <div class="social-link"><a href="https://www.linkedin.com/in/irfancodes"><i class="fa-brands fa-linkedin"> </i>  LinkedIn</a></div>
+        <div class="social-link"><a href="https://api.whatsapp.com/qr/CCPRRYAWCTTCA1?autoload=1&app_absent=0"><i class="fa-brands fa-square-whatsapp"> </i>  WhatsApp</a></div>
       </div>
     
-    </footer>
+    </footer> 
+    <script src="nav.js"></script>
   </body>
 </html>

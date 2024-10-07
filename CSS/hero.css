@@ -1,23 +1,21 @@
 .hero-section{
-    margin-top: 180px;
-    margin-left:178px;
+    margin-top: 100px;
     margin-right: 178px;
+    margin-left: 178px;
+    padding: 0 16px;
+    min-width: 350px;
     max-width:1100px;
-    padding-left: 16px;
-    padding-right: 16px;
     color:white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    column-gap: 5px;
-}
+} 
 
 .intro{
     padding: 100px 0px 50px 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* flex-wrap: nowrap; */
     row-gap: 50px;
 }
 
@@ -35,6 +33,8 @@
     -webkit-text-fill-color: transparent; /* Makes the text transparent for WebKit browsers */
     font-size: 40px;
     font-weight: 800;
+    text-wrap: nowrap;
+    line-height: 5px;
 }
 .email-input{
     /* border: 2px solid blue; */

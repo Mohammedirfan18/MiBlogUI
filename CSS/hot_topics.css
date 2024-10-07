@@ -1,6 +1,7 @@
  .hot-topics{ 
     margin-left:178px;
     margin-right: 178px;
+    min-width: 350px;
     max-width:1100px;
     padding: 20px; 
     display: flex;

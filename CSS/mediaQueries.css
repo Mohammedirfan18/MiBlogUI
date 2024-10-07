@@ -1,0 +1,80 @@
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .navbar {
+        margin: 0 10px;
+    }
+
+    .hero-section {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 0;
+    }
+
+    .hot-topics,.editors-choice,.popular-tags,footer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .first-display,
+    .second-display {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .panel-one,
+    .panel-two{
+        margin: 10px;
+    }
+}
+
+@media (min-width : 840px) {
+    .mob_navbar {
+        display: none;
+    }
+}
+
+@media (max-width: 840px) {
+    .options {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hot-topics {
+        flex-direction: column;
+        align-items: start;
+        row-gap: 5px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .social-links {
+        width: 80%;
+    }
+}
+
+@media(max-width:500px) {
+    .email-input {
+        width: 90%;
+    }
+}
+
+@media(max-width:420px) {
+
+    .topic2,
+    .topic3 {
+        display: none;
+    }
+}
