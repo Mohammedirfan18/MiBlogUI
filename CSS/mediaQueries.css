@@ -108,5 +108,11 @@
     .panel-one,.panel-two{
         padding: 10px;
     }
-    
+    .mob_navbar{
+        width: 90%;
+    }
+    .navbar {
+        margin: 0;
+        width: fit-content;
+    }
 }
