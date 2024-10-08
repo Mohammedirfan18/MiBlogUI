@@ -35,6 +35,9 @@
     .first-display,
     .second-display {
         flex-direction: column;
+        
+    }
+    .panel-one,.panel-two{
         margin-bottom: 10px;
     }
     footer{
