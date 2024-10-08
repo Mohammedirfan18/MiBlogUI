@@ -1,9 +1,7 @@
 .editors-choice{
-    margin-top:50px ;
-    margin-left:178px;
-    margin-right: 178px;
-    max-width:1100px;
-    padding: 20px; 
+    padding: 16px;
+    margin: auto;
+    max-width: 1108px;
     background-color: transparent;
     border-radius: 6px;
     display: flex;

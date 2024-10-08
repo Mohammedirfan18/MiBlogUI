@@ -1,118 +1,79 @@
 /* Media Queries for Responsiveness */
 @media (max-width: 1200px) {
-    .navbar {
-        margin: 0 10px;
-    }
-
-    .hero-section {
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    .hot-topics,.editors-choice,.popular-tags,footer {
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-}
-
-@media (max-width: 1000px) {
-
-    .first-display,
-    .second-display {
-        flex-direction: column;
-        margin-bottom: 10px;
-    }
-    .panel-one,
-    .panel-two{
-        margin: 10px;
-    }
-}
-
-@media (min-width : 840px) {
-    .mob_navbar {
-        display: none;
-    }
-}
-@media (max-width: 852px) {
-    .hero-section {
-        display: flex;
-        flex-direction: column;
-    }
-}
-@media (max-width: 840px) {
     .options {
         display: none;
     }
-
     .menu {
         display: block;
     }
+    .navbar {
+        max-width: 898px;
+    }
+    .hero-section,.hot-topics,.editors-choice,footer{
+        max-width: 898px;
+    } 
+    .popular-tags{
+        max-width: 800px;
+    }
 
-    
-
-    .hot-topics {
+}
+@media (max-width: 995px) {
+    .navbar {
+        max-width: 688px;
+    }
+    .hero-section {
+        max-width: 688px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hot-topics{
+        max-width: 688px;
         flex-direction: column;
         align-items: start;
         row-gap: 5px;
     }
-
-    footer {
+    .first-display,
+    .second-display {
         flex-direction: column;
     }
-
-    .social-links {
-        width: 90%;
+    footer{
+        flex-direction: column;
     }
 }
-
-@media(max-width:524px) {
-    .email-input {
-        width: 90%;
+@media (max-width: 770px) {
+    .navbar,.hero-section,.hot-topics,.editors-choice,.popular-tags,footer{
+        max-width: 510px;
     }
-    .intro{
-        row-gap: 30px;
-        padding-left: 0;
-    }
-    .introh1{
-        display: block;
-        margin-bottom: 10px;
-    }
-
 }
-
-@media(max-width:420px) {
-
+@media (max-width: 575px) {
+    .navbar,.hero-section {
+        margin: 0;
+        max-width: 542px;
+    }
     .topic2,
     .topic3 {
         display: none;
     }
-    .hot-topics{
-        margin-left: 30px;
-       
-    }
-    .editors-choice,.popular-tags{
-        padding: 0;
-        padding-left:30px;
-    }
-    .editors-head h2{
-        font-size: 35px;
-    }
-    .hero-section {
-        width: 100%;
-    }
-    .first-display,.second-display
-    {
-        padding: 0;
-    }
-    .panel-one,.panel-two{
-        padding: 10px;
-    }
-    .mob_navbar{
+    .social-links {
         width: 90%;
     }
-    .navbar {
-        margin: 0;
-        width: fit-content;
+    .email-input {
+        width: 90%;
     }
 }
+@media (max-width: 475px) {
+    .introh1{
+        display: block;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width : 1200px) {
+    .mob_navbar {
+        display: none;
+    }
+}
+
+
+
+
